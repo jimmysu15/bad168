@@ -35,7 +35,7 @@ input:-ms-input-placeholder{color:#fff;}
     background:#582e78;
     border-radius: 10px 10px 10px 10px;
     padding:0px 20px 25px; min-height: 600px;}
-#boxTheme {background:url(images/theme.jpg) repeat-x;border:0;height:53px;
+#boxTheme {background:url(images/theme.jpg) repeat-x;border:0;height:51px;
     margin-left: -20px;margin-right: -20px;margin-bottom: 5px;box-sizing: content-box;border-bottom: 5px solid #490B75;position:static;}    
 #boxTheme .active a{background:url(images/theme_active.jpg) top center repeat-x;}
 #boxTheme a{color:#fff;text-shadow:0 0 1px #000;font-size: 16px;font-family: Arial}
