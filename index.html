@@ -9,7 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="msvalidate.01" content="319C7B531B2958B1848B9FA2657DEB3B">
-        <link rel="stylesheet" href="http://bad168.tw/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="http://bad168.tw/Css/ui-lightness/jquery-ui-1.10.0.custom.min.css" type="text/css">
         <link href="http://bad168.tw/Css/ui-lightness/jquery-ui-1.10.0.custom.min.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
@@ -48,7 +48,7 @@
                         <a class="navbar-brand" href="">壞兒事 幻想情趣世界 | bad168.tw</a>
                     </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav mainmenu">
                             <li>
                                 <a href="">關於我們</a>
                             </li>
@@ -359,9 +359,21 @@
                             <li>
                                 <a href="">聯絡我們</a>
                             </li>
+                            <li class="visible-sm visible-xs nav-search-m" role="search">
+                                <div class="input-group">
+                                      <input type="text" class="form-control Text_Search" placeholder="搜尋商品">
+                                      <span class="input-group-btn">
+                                        <button class="btn" type="button" id="A_Searchm"><span class="glyphicon glyphicon-search"></span></button>
+                                      </span>
+                                </div>
+                            </li>
                         </ul>
                         
-                        <ul class="nav navbar-nav navbar-right">
+                        
+
+                    </div><!--/.navbar-collapse -->
+
+                    <ul class="nav navbar-nav navbar2">
                             <li>
                                 <a href=""><span class="glyphicon glyphicon-shopping-cart"></span> 購物車(0)</a>
                             </li>
@@ -373,16 +385,7 @@
                                     <input class="form-control Text_Search" id="inputIcon" type="text" placeholder="搜尋商品">
                                 </div><button class="btn" type="button" id="A_Search"><span class="glyphicon glyphicon-search"></span></button>
                             </li>
-                             <li class="navbar-form navbar-left visible-sm visible-xs nav-search-m" role="search">
-                                <div class="form-group">
-                                    <!-- <input class="form-control Text_Search" id="inputIcon" type="text" placeholder="搜尋商品"> -->
-                                </div><button class="btn" type="button" id="A_Search"><span class="glyphicon glyphicon-search"></span></button>
-                            </li>
                         </ul>
-
-                    </div><!--/.navbar-collapse -->
-
-                    
 
                 </div>
             </nav>
@@ -390,9 +393,7 @@
         <div class="container PageContent">
             <div id="ctl10_Init1" class="row DivMin900">
                 <div class="col-md-12 DivBack">
-                    <div id="boxTheme">
-                            <div class="row">
-                                <div class="col-md-12" style="margin-bottom:5px;">
+                    <div id="boxTheme">                            
                                     <ul class="nav navbar-nav Theme">
                                         <li class='active'>
                                             <a href="">不分類主題館</a>
@@ -416,8 +417,6 @@
                                             <a href='' title='逼真型陽具主題館'>逼真型陽具主題館</a>
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
                     </div>
                     <div class="row" id="boxNews">
                         <div class="col-xs-12 col-md-8">
