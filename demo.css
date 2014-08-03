@@ -214,7 +214,7 @@ ul.submenu{display:none;}
     #DivTop .navbar-inverse {background:none;}
     #DivTop .navbar-header .navbar-brand{
         background:url(images/header.jpg) no-repeat top left;border-radius: 5px;
-        width:100%;height: 140px;text-indent:200%;
+        width:100%;height: auto;min-height: 60px;text-indent:200%;
         background-size:200%;}
     #DivTop .navbar-nav{float:left;width: 100%;margin:0;}
     #DivTop .navbar-collapse .nav>li{/*width: 30%;display: inline-block*/}
@@ -237,8 +237,6 @@ ul.submenu{display:none;}
     .fpack, .fpro, .fcontact, .copyright, .warning18 {background: none;padding-left: 0}
 }
 @media (max-width: 500px){
-    /*#DivTop .navbar-header .navbar-brand{height: auto;}*/
-     #DivTop .navbar-header .navbar-brand{height: auto;min-height: 60px}
     #boxTheme {margin-top: 0px;}
     #boxNews{margin-top:15px;}
 }
