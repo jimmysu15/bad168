@@ -225,10 +225,10 @@ ul.submenu{display:none;}
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border:0;}
     
     .mainmenu li a { font-size : 13px;}
-    .Theme li{display: inline-block;}
     #boxTheme{position: relative;margin-top: 60px;margin-bottom: 5px;}
     #boxTheme a{font-size: 14.5px;}
     .Theme{width: 100%;white-space: nowrap;overflow: auto;margin:4px;left: 0;position: absolute;}
+    .Theme li{display: inline-block;}
     .nav-search-m{padding-bottom: 15px}
 
     #boxNews{background:#fff;padding:0 0 15px;}
@@ -238,6 +238,7 @@ ul.submenu{display:none;}
 }
 @media (max-width: 500px){
     /*#DivTop .navbar-header .navbar-brand{height: auto;}*/
+     #DivTop .navbar-header .navbar-brand{height: auto;min-height: 60px}
     #boxTheme {margin-top: 0px;}
     #boxNews{margin-top:15px;}
 }
